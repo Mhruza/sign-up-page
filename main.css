@@ -1,75 +1,91 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
+}
+
 body {
 	background-color: #4F94CD;
 	font-family: Roboto;
 }
+
 header {
 	text-align: center;
 	margin-top: 60px;
 }
+
 img {
 	width: 150px;
 	height: 35px;
 }
+
 .box {
-	width: 317px;
+	width: 400px;
 	background-color: white;
-	margin-right: auto;	
-	margin-left: auto;
 	margin-top: 40px;
-	height: 480px;
-	padding-left: 40px;
-	padding-right: 40px;
+	height: 100%;
+	padding: 40px;
 	border-radius: 3px;
 }
-legend {
-	margin-right: auto;
-	margin-left: auto;
+
+h1 {
 	font-size: 35px;
-	padding-top: 40px;
+	/*font-weight: light;*/
+	text-align: center;
+	padding-top: 10px;
 	margin-bottom: 40px;
 }
+
+input, button {
+	height: 55px;
+	padding: 15px;
+	width: 320px;
+}
+
 input {
-	width: 302px;
 	border: 2px solid gray;
 	border-radius: 3px;
-	height: 45px;
 	background-color: #e8e8ee;
 	margin-top: 20px;
 	font-size: 20px;
-	padding-left: 15px; 
 	margin-bottom: 15px;
 	opacity: .4;
 }
+
 label {
 	font-weight: 800;
 }
+
 form {
 	text-align: left;
 }
+
 button {
-	width: 320px;
 	background-color: green;
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
-	border: 2px solid #fffbff;
+	border: 2px solid green;
 	border-radius: 5px;
-	position: relative;
-	height: 55px;
 	opacity: .6;
+	margin-top: 10px;
 }
+
 button:hover {
 	background-color: #006400;
 }
 
-p {
+div p {
+	color: white;
+	font-weight: bold;
 	text-align: center;
-	color: white;
-	font-weight: bold; 
+	margin-top: 17px;
 }
-p a {
+
+div p a {
 	color: white;
 }
+
 .box a {
 	display: block;
 	text-align: center;
