@@ -1,5 +1,5 @@
 body {
-	background-color: #87beff;
+	background-color: #4F94CD;
 	font-family: Roboto;
 }
 header {
@@ -32,12 +32,13 @@ input {
 	width: 302px;
 	border: 2px solid gray;
 	border-radius: 3px;
-	height: 55px;
+	height: 45px;
 	background-color: #e8e8ee;
 	margin-top: 20px;
 	font-size: 20px;
 	padding-left: 15px; 
 	margin-bottom: 15px;
+	opacity: .4;
 }
 label {
 	font-weight: 800;
@@ -50,18 +51,29 @@ button {
 	background-color: green;
 	color: white;
 	font-size: 20px;
-	border: 2px solid gray;
-	border-radius: 3px;
+	font-weight: bold;
+	border: 2px solid #fffbff;
+	border-radius: 5px;
 	position: relative;
 	height: 55px;
+	opacity: .6;
 }
 button:hover {
 	background-color: #006400;
 }
-h3 {
-	text-align: center;
-	font-size: 15px;
-}
+
 p {
 	text-align: center;
+	color: white;
+	font-weight: bold; 
+}
+p a {
+	color: white;
+}
+.box a {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	color: gray;
+	opacity: .6;
 }
